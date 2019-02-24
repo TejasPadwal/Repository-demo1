@@ -1,0 +1,13 @@
+ 15  git init
+   16  yum install -y git -> install git software
+   17  git init -> create local repository
+   24  git status -> show repository status
+   25  git add linuxcommand.txt -> add data from this file i.e. from untracked area to commit area
+   26  git status -> check status of file beging added
+   27* git commit -m"my first commit -> save file from commit ara to repository area but i missed to write " and command become incorrect so entered it again below
+   28  git commit -m"my first commit"
+   29  git status
+   30  git remote add origin https://github.com/TejasPadwal/Repository-demo1.git -> add file from local repository to original master repository
+   31  git push -u origin master -> push file to final master data
+   32  history | grep git
+
