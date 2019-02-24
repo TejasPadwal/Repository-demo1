@@ -1,0 +1,20 @@
+    1  yum install -y tree
+    2  tree
+    3  which tree
+    4  rpm -qa | grep tree
+    5  ls
+    6  ls -lrt
+    7  ssh-keygen -t rsa
+    8  cat /root/.ssh/id_rsa.pub
+    9  cd ssh
+   10  ssh root 172.31.30.24
+   11  ssh root@172.31.30.24
+   12  mkdir -P /opt/repository-demo1
+   13  mkdir -p /opt/repository-demo1
+   14  cd /opt/repository-demo1
+   15  git init
+   16  yum install -y git
+   17  git init
+   18  history
+   19  history 
+   20  history >> linuxcommand.txt
