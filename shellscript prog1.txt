@@ -1,0 +1,30 @@
+#!/bin/bash
+filename=homedirbackup_$(date +%Y%m%d).tar.gz
+tar -czf $filename /$HOME
+
+
+tar -xvf
+tar -cvf 
+tar -tvf 
+
+vi functiondemo.sh
+#!/bin/bash
+
+x="global value"
+
+function bashfunction {
+    local x="local value"
+    echo $x
+    }
+
+echo $x
+
+# call the bashfunction
+bashfunction
+
+echo $x
+
+
+
+
+
